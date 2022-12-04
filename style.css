@@ -40,6 +40,13 @@ body {
   border-radius: 50%;
 }
 
+p{
+  line-height: 30px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 100;
+  padding: 20px 50px;
+}
 
 h1 {
   font-family: 'Montserrat', sans-serif;
@@ -76,14 +83,6 @@ li{
   font-size: 29px;
   display: inline-block;
   padding: 20px;
-}
-
-p{
-  line-height: 30px;
-  font-size: 16px;
-  color: #fff;
-  font-weight: 100;
-  padding: 20px 50px;
 }
 
 .imagem_perfil {
