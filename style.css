@@ -1,0 +1,131 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(39, 39, 38);
+  background-image: url("images/fundo.jpeg");
+}
+
+.card {
+  width: 50%;
+  background-color: #361640;
+  margin: 0 auto;
+  box-shadow: 0px 0px 20px rgb(185, 185, 185);
+}
+
+.borda_redonda {
+  margin: 0 auto;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #06aca6;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 30px;
+}
+
+h2 {
+  line-height: 30px;
+  font-weight: 400;
+  text-align: center;
+  color:  rgb(232, 246, 129);
+}
+
+h3 {
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+}
+
+ul {
+  color: #fff;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align:center;
+
+}
+
+li{
+  font-size: 29px;
+  display: inline-block;
+  padding: 20px;
+}
+
+p{
+  line-height: 30px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 100;
+  padding: 20px 50px;
+}
+
+.imagem_perfil {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+img {
+  margin: 0 auto;
+}
+
+.bottom {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  background-color: #d3cdd2;
+  border-radius: 7px;
+
+}
+
+.base{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  font-weight:bolder;
+  color: #fff;
+}
+
+a.bottom {
+  color: #361640;
+}
+
+ a.bottom:hover {
+  color: #361640;
+  background-color: rgb(224, 246, 59);
+}
+
+li a:hover  {
+  color: rgb(224, 246, 59);
+}
